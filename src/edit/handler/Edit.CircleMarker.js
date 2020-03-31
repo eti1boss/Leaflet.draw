@@ -26,7 +26,7 @@ L.Edit.CircleMarker = L.Edit.SimpleShape.extend({
 		// Move the circle
 		this._shape.setLatLng(latlng);
 
-		this._map.fire(L.Draw.Event.EDITMOVE, {layer: this._shape});
+		this._map.fire(L.Draw.Event.EDITMOVE, { layer: this._shape });
 	},
 });
 
